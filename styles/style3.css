@@ -1,0 +1,51 @@
+.about-us {
+  padding-top: 120px;
+}
+.about-us__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 75px;
+  margin-bottom: 60px;
+}
+.about-us__content {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1109px) {
+  .about-us__body h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1109px) {
+  .about-us__content {
+    display: block;
+    justify-content: space-around;
+  }
+}
+
+.about-us__image {
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1181px) {
+  .about-us__image {
+    margin-bottom: 40px;
+  }
+}
+
+.about-us__biography {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  max-width: 680px;
+}
+
+.about-us__biography span {
+  margin-bottom: 19px;
+}
+
+
